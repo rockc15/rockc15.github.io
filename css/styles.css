@@ -5,6 +5,16 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+#AboutMeBody{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+#index{
+    padding:5%
+}
+
 .casey-rock-box{
     display: flex;
     flex-direction: column;
@@ -17,6 +27,11 @@ body{
     border-radius: 2%;
 }
 
+.about{
+    width:70%;
+}
+
+
 .title{
     text-align: center;
     display: inline-block;
@@ -26,10 +41,12 @@ body{
     margin: 0 auto;
 }
 
-.casey-text{
+
+.info-text{
     padding: 5%;
-    font-size: 1em;
+    font-size: 2em;
     color: #eeeeee;
+    margin: auto;
 }
 
 .caseyRock-pic{
@@ -40,3 +57,11 @@ body{
     padding: 5%;
 }
 
+
+.prev{
+    float: left;
+}
+
+.next{
+    float: right;
+}

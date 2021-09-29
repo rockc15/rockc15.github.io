@@ -4,9 +4,12 @@
 <head>
     <script src="/lib/jquery-3.6.0.js"></script>
     <link type="text/css" rel="stylesheet" href="/lib/bootstrap-5.1.1/css/bootstrap.min.css" />
-    <link type="text/css" rel="stylesheet" href="css/index.css">
+    <link type="text/css" rel="stylesheet" href="../css/contactMe.css">
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script>particlesJS.load('particles', '/assets/particlesjs-config.json');</script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="../js/contactMe.js">
+    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Casey Rock</title>
@@ -42,8 +45,32 @@
             </div>
         </nav>
         <div class="page">
-            <h1 class="display-1" id="title">Casey Rock</h1>
-            <img src="/assets/CaseyRock.jpg" alt="Casey Rock Photo" class="caseyRock-pic">
+            <h1 class="title display-1">Contact Me </h1>
+            <div class="contact-box">
+                <form id='login-form' class="needs-validation" novalidate>
+                    <div class='form-group display-1'>
+                        <input class="form-control" id="lastname-input" placeholder="Last Name" type='text' required>
+                    </div>
+                    <div class='form-group display-1'>
+                        <input class="form-control" id="firstname-input" placeholder="First Name" type='text' required>
+                    </div>
+                    <div class='form-group display-1'>
+                        <input class="form-control" id="email-input" placeholder="Email" type='text' required>
+                    </div>
+                    <div class='form-group display-1'>
+                        <input class="form-control" id="phone-input" placeholder="Phone Number" type='text' required>
+                    </div>
+                    <div class='form-group display-1'>
+                        <textarea class="form-control" id="message-input" placeholder="Message" required></textarea>
+                    </div>
+                    <input type='submit' id='submit-btn' class='btn btn-danger' value='Send'>
+
+                </form>
+                <div id="email-error" class="alert alert-danger" role="alert">
+                    Must Complete the Form
+                </div>
+            </div>
+
         </div>
     </div>
 </body>

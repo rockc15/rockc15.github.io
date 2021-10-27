@@ -1,0 +1,32 @@
+body {
+    background-color: #1A1A1D;
+  }
+  
+  .page {
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .navbar{
+    background-color: #4E4E50;
+  }
+
+  .title {
+    font-size: 3rem;
+    color: #C3073F;
+  }
+
+
+#pictureBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50%;
+  width: 70%;
+  padding: 3%;
+  margin: auto;
+}

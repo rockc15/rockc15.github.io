@@ -1,9 +1,9 @@
-[] Navigation Panel - Move previous, next, and course site links to a drop down menu item labeled “Class Links”. Then, decide what the rest of your users’ navigational experience should be.
+[ ] Navigation Panel - Move previous, next, and course site links to a drop down menu item labeled “Class Links”. Then, decide what the rest of your users’ navigational experience should be.
 [x] Landing Page / Home Page - with information about you and what you might be interested in pursuing in terms of career opportunities after graduation.
-[] Projects - Include a list of projects that highlight your skills and interests. Include supporting information like what you did, where the viewer can access the code or materials, and include images (if possible) showcasing the work. At a minimum this can be a few class or personal projects; these don’t necessarily need to be coding projects.
+[X] Projects - Include a list of projects that highlight your skills and interests. Include supporting information like what you did, where the viewer can access the code or materials, and include images (if possible) showcasing the work. At a minimum this can be a few class or personal projects; these don’t necessarily need to be coding projects.
 [X] Resume - You should create a section to showcase a digital copy of your resume/CV and implement a download functionality for a pdf/word file. A viewer should be able to view your resume in some form and download it for later.
 [X] Implement a footer on your site. A footer is located at the bottom of the website and is used to display content that doesn’t often change. It might include links for easy access, like social media icons, contact information and so on.
 [X] Contact Details - Typically your email address, but it’s also a good idea to include buttons for the various professional social networking sites you are on e.g., LinkedIn, GitHub.
 [X] Keep a photo of yourself on the page
 [X] Some personal elements; make it interesting if you’ve got someone’s attention.
-[] Google Analytics
+[ ] Google Analytics

@@ -16,62 +16,70 @@
 </head>
 
 <body>
-    <div id="particles">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
-                <a style="color:#C3073F;" class="navbar-brand" href="../index.html">Home</a>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a style="color:#dfdfdf;" class="nav-link" href="/pages/resume.html">My Resume</a>
-                        </li>
-                        <li class="nav-item">
-                            <a style="color:#dfdfdf;" class="nav-link" href="/pages/contactMe.html">Contact Me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a style="color:#dfdfdf;" class="nav-link" href="https://mattm401.github.io/">Course
-                                Website</a>
-                        </li>
-                        <li class="nav-item">
-                            <a style="color:#dfdfdf;" class="nav-link" href="https://searfmat.github.io/">Next
-                                Student</a>
-                        </li>
-                        <li class="nav-item">
-                            <a style="color:#dfdfdf;" class="nav-link" href="https://collinreich.github.io/">Previous
-                                Student</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <div class="page">
-            <h1 class="title display-1">Contact Me </h1>
-            <div class="contact-box">
-                <form id='login-form' class="needs-validation" novalidate>
-                    <div class='form-group display-1'>
-                        <input class="form-control" id="lastname-input" placeholder="Last Name" type='text' required>
-                    </div>
-                    <div class='form-group display-1'>
-                        <input class="form-control" id="firstname-input" placeholder="First Name" type='text' required>
-                    </div>
-                    <div class='form-group display-1'>
-                        <input class="form-control" id="email-input" placeholder="Email" type='text' required>
-                    </div>
-                    <div class='form-group display-1'>
-                        <input class="form-control" id="phone-input" placeholder="Phone Number" type='text' required>
-                    </div>
-                    <div class='form-group display-1'>
-                        <textarea class="form-control" id="message-input" placeholder="Message" required></textarea>
-                    </div>
-                    <input type='submit' id='submit-btn' class='btn btn-danger' value='Send'>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a style="color:#C3073F;" class="navbar-brand" href="../index.html">Home</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a style="color:#dfdfdf;" class="nav-link" href="/pages/resume.html">My Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color:#dfdfdf;" class="nav-link" href="/pages/contactMe.html">Contact Me</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" style="color:#dfdfdf;" href="#" id="navbarDropdownMenuLink"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Class Links
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://mattm401.github.io/">Course
+                                    Website</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://searfmat.github.io/">Next
+                                    Student</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://collinreich.github.io/">Previous
+                                    Student</a>
+                            </li>
+                        </ul>
+                    </li>
 
-                </form>
-                <div id="email-error" class="alert alert-danger" role="alert">
-                    Must Complete the Form
-                </div>
+                </ul>
             </div>
-
         </div>
+    </nav>
+    <div class="page">
+        <h1 class="title display-1">Contact Me </h1>
+        <div class="contact-box">
+            <form id='login-form' class="needs-validation" novalidate>
+                <div class='form-group display-1'>
+                    <input class="form-control" id="lastname-input" placeholder="Last Name" type='text' required>
+                </div>
+                <div class='form-group display-1'>
+                    <input class="form-control" id="firstname-input" placeholder="First Name" type='text' required>
+                </div>
+                <div class='form-group display-1'>
+                    <input class="form-control" id="email-input" placeholder="Email" type='text' required>
+                </div>
+                <div class='form-group display-1'>
+                    <input class="form-control" id="phone-input" placeholder="Phone Number" type='text' required>
+                </div>
+                <div class='form-group display-1'>
+                    <textarea class="form-control" id="message-input" placeholder="Message" required></textarea>
+                </div>
+                <input type='submit' id='submit-btn' class='btn btn-danger' value='Send'>
+
+            </form>
+            <div id="email-error" class="alert alert-danger" role="alert">
+                Must Complete the Form
+            </div>
+        </div>
+
+    </div>
     </div>
 </body>
 

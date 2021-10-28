@@ -6,4 +6,4 @@
 [X] Contact Details - Typically your email address, but it’s also a good idea to include buttons for the various professional social networking sites you are on e.g., LinkedIn, GitHub.
 [X] Keep a photo of yourself on the page
 [X] Some personal elements; make it interesting if you’ve got someone’s attention.
-[ ] Google Analytics
+[X] Google Analytics
